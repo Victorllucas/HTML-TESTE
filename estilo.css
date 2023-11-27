@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: transparent;
+  font-size: 2em;
+  background-image: linear-gradient(to right, #ff8c00, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  border: 5px solid #333; /* borda de 5 pixels sólida ao redor da imagem */
+  display: block; /* Transforma a imagem em bloco para centralização */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+iframe {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
